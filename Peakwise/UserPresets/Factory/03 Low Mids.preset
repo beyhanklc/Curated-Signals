@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptButton" id="Power_Btn" value="1.0" />
+    <Control type="ScriptSlider" id="Threshold_Knb" value="4.0" />
+    <Control type="ScriptSlider" id="Amount_Knb" value="1.0" />
+    <Control type="ScriptSlider" id="LowLim_Knb" value="180.0" />
+    <Control type="ScriptSlider" id="HighLim_Knb" value="1200.0" />
+    <Control type="ScriptButton" id="Listen_Btn" value="0.0" />
+  </Content>
+  <MidiAutomation />
+  <MPEData Enabled="0" />
+</Preset>

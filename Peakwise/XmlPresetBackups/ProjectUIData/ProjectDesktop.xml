@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="Bg_Pnl" x="0.0" y="0.0" width="880.0"
+             height="500.0"/>
+  <Component type="ScriptPanel" id="Screen_Pnl" x="0.0" y="76.0" width="880.0"
+             height="262.0"/>
+  <Component type="ScriptFloatingTile" id="Anls_FT" x="0.0" y="76.0" width="880.0"
+             height="262.0" ContentType="AudioAnalyser" bgColour="4281545523"
+             itemColour="4287137928" itemColour2="4282664004" textColour="0"
+             Data="{&#10;  &quot;ProcessorId&quot;: &quot;Analyser&quot;,&#10;  &quot;Index&quot;: 2,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"/>
+  <Component type="ScriptPanel" id="Ovr_Pnl" x="0.0" y="76.0" width="880.0"
+             height="262.0" allowCallbacks="All Callbacks"/>
+  <Component type="ScriptPanel" id="Header_Pnl" x="0.0" y="0.0" width="300.0"
+             height="64.0" allowCallbacks="All Callbacks"/>
+  <Component type="ScriptPanel" id="PresetPrev_Pnl" x="258.0" y="16.0" width="30.0"
+             height="32.0" allowCallbacks="Clicks &amp; Hover"/>
+  <Component type="ScriptPanel" id="Preset_Pnl" x="290.0" y="16.0" width="212.0"
+             height="32.0" allowCallbacks="Clicks &amp; Hover" popupMenuItems="Default&#10;Gentle Polish&#10;Low Mids&#10;Harsh Upper Mids&#10;Sibilance&#10;Air And Fizz&#10;Full Range Deep&#10;Presence Focus"
+             popupOnRightClick="0"/>
+  <Component type="ScriptPanel" id="PresetNext_Pnl" x="504.0" y="16.0" width="30.0"
+             height="32.0" allowCallbacks="Clicks &amp; Hover"/>
+  <Component type="ScriptPanel" id="GR_Pnl" x="558.0" y="16.0" width="150.0"
+             height="32.0"/>
+  <Component type="ScriptButton" id="Power_Btn" x="124.0" y="405.0" width="88.0"
+             height="33.0" defaultValue="1.0" isPluginParameter="1" pluginParameterName="Power"
+             isMetaParameter="1" useUndoManager="1" bgColour="1442840575"
+             itemColour="1714631475" itemColour2="4212199697" textColour="4294967295"/>
+  <Component type="ScriptButton" id="Listen_Btn" x="658.0" y="404.0" width="100.0"
+             height="33.0" isPluginParameter="1" pluginParameterName="Listen"
+             isMetaParameter="1" useUndoManager="1" bgColour="1442840575"
+             itemColour="1714631475" itemColour2="4212199697" textColour="4294967295"/>
+  <Component type="ScriptSlider" id="Threshold_Knb" x="311.0" y="366.0" stepSize="0.1000000014901161"
+             min="2.0" max="15.0" suffix=" dB" width="90.0" height="114.0"
+             showTextBox="0" defaultValue="3.0" isPluginParameter="1" pluginParameterName="Threshold"
+             isMetaParameter="1" useUndoManager="1" bgColour="1442840575"
+             itemColour="1714631475" itemColour2="4212199697" textColour="4294967295"/>
+  <Component type="ScriptSlider" id="Amount_Knb" x="475.0" y="366.0" suffix="%"
+             width="90.0" height="114.0" showTextBox="0" mode="NormalizedPercentage"
+             max="2.0" defaultValue="1.5" isPluginParameter="1" pluginParameterName="Amount"
+             isMetaParameter="1" useUndoManager="1" stepSize="0.009999999776482582"
+             bgColour="1442840575" itemColour="1714631475" itemColour2="4212199697"
+             textColour="4294967295"/>
+  <Component type="ScriptSlider" id="LowLim_Knb" x="485.0" y="366.0" middlePosition="1000.0"
+             stepSize="1.0" min="60.0" max="17000.0" suffix=" Hz" width="90.0"
+             height="114.0" showTextBox="0" mode="Frequency" defaultValue="350.0"
+             isPluginParameter="1" pluginParameterName="Range Low" isMetaParameter="1"
+             useUndoManager="1" visible="0"/>
+  <Component type="ScriptSlider" id="HighLim_Knb" x="610.0" y="366.0" middlePosition="1000.0"
+             stepSize="1.0" min="60.0" max="17000.0" suffix=" Hz" width="90.0"
+             height="114.0" showTextBox="0" mode="Frequency" defaultValue="12500.0"
+             isPluginParameter="1" pluginParameterName="Range High" isMetaParameter="1"
+             useUndoManager="1" visible="0"/>
+  <Component type="ScriptPanel" id="Info_Pnl" x="832.0" y="16.0" width="28.0"
+             height="32.0" allowCallbacks="Clicks &amp; Hover"/>
+  <Component type="ScriptPanel" id="Resize_Pnl" x="848.0" y="468.0" width="32.0"
+             height="32.0" allowCallbacks="Clicks, Hover &amp; Dragging" popupMenuItems="70%&#10;80%&#10;90%&#10;100%&#10;110%&#10;120%&#10;130%&#10;140%&#10;150%&#10;160%&#10;170%&#10;180%&#10;190%&#10;200%"/>
+  <Component type="ScriptPanel" id="InfoOverlay_Pnl" x="0.0" y="0.0" width="880.0"
+             height="500.0" allowCallbacks="Clicks &amp; Hover" visible="0"/>
+</ContentProperties>
